@@ -1,0 +1,19 @@
+{
+  "name": "2d-platformer-ecs",
+  "version": "1.0.0",
+  "description": "2D platformer written in TypeScript using the ECS (Entity Component System) pattern",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "author": "Sander Ledegen",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  }
+}

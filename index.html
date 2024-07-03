@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A 2D platformer written in TypeScript using the ECS (Entity Component System) pattern"
+    />
+    <meta name="author" content="Sander Ledegen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2D platformer using ECS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Platformer</h1>
+    <canvas id="canvas" width="512" height="256" tabindex="0" autofocus></canvas>
+    <p>
+      A 2D platformer written in TypeScript using the ECS (Entity Component System) pattern. The
+      concepts used are greatly inspired by the
+      <a href="https://www.youtube.com/watch?v=s99UDGdYIUE&list=PL_xRyXins84_Jf-aCh7chj47HR4oZLPwK"
+        >online course</a
+      >
+      &ldquo;Intro to C++ Game Programming (COMP4300)&rdquo; by
+      <a href="https://www.cs.mun.ca/~dchurchill/">Dave Churchill</a> of the Memorial University in
+      Newfoundland, Canada.
+    </p>
+    <p>Thanks to <a href="https://kenney.nl/">Kenney</a> for the sprites!</p>
+    <p>
+      Thanks to <a href="https://craftpix.net/">Craftpix</a> to host the free-to-use
+      <a href="https://craftpix.net/freebies/free-pixel-art-tiny-hero-sprites/"
+        >tiny hero character</a
+      >
+      sprites!
+    </p>
+    <ul>
+      <li><code>WASD</code> to move;</li>
+      <li><code>Esc</code> to pause the game;</li>
+      <li><code>R</code> to reset the main character;</li>
+      <li><code>B</code> to toggle the collision boxes of every entity;</li>
+      <li><code>G</code> to toggle the grid (to help building levels);</li>
+      <li><code>T</code> to toggle the textures.</li>
+    </ul>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

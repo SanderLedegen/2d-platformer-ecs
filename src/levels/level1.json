@@ -1,0 +1,220 @@
+{
+  "assets": [
+    {
+      "name": "wave",
+      "imagePath": "assets/wave.png"
+    },
+    {
+      "name": "grassFull",
+      "imagePath": "assets/grass-full.png"
+    },
+    {
+      "name": "groundFull",
+      "imagePath": "assets/ground-full.png"
+    },
+    {
+      "name": "groundSemiSolid",
+      "imagePath": "assets/ground-semi-solid.png"
+    },
+    {
+      "name": "grassFloat",
+      "imagePath": "assets/grass-float.png"
+    },
+    {
+      "name": "grassFloatLeft",
+      "imagePath": "assets/grass-float-left.png"
+    },
+    {
+      "name": "grassFloatRight",
+      "imagePath": "assets/grass-float-right.png"
+    },
+    {
+      "name": "sign",
+      "imagePath": "assets/sign.png"
+    },
+    {
+      "name": "box",
+      "imagePath": "assets/box.png"
+    },
+    {
+      "name": "playerIdle",
+      "imagePath": "assets/player-idle.png"
+    },
+    {
+      "name": "playerJump",
+      "imagePath": "assets/player-jump.png"
+    },
+    {
+      "name": "playerRun",
+      "imagePath": "assets/player-run.png"
+    }
+  ],
+  "animations": [
+    {
+      "name": "wave",
+      "asset": "wave",
+      "numAnimFrames": 1,
+      "singleFrameDuration": 1,
+      "repeating": true
+    },
+    {
+      "name": "grassFull",
+      "asset": "grassFull",
+      "numAnimFrames": 1,
+      "singleFrameDuration": 1,
+      "repeating": true
+    },
+    {
+      "name": "groundFull",
+      "asset": "groundFull",
+      "numAnimFrames": 1,
+      "singleFrameDuration": 1,
+      "repeating": true
+    },
+    {
+      "name": "groundSemiSolid",
+      "asset": "groundSemiSolid",
+      "numAnimFrames": 1,
+      "singleFrameDuration": 1,
+      "repeating": true
+    },
+    {
+      "name": "grassFloat",
+      "asset": "grassFloat",
+      "numAnimFrames": 1,
+      "singleFrameDuration": 1,
+      "repeating": true
+    },
+    {
+      "name": "grassFloatLeft",
+      "asset": "grassFloatLeft",
+      "numAnimFrames": 1,
+      "singleFrameDuration": 1,
+      "repeating": true
+    },
+    {
+      "name": "grassFloatRight",
+      "asset": "grassFloatRight",
+      "numAnimFrames": 1,
+      "singleFrameDuration": 1,
+      "repeating": true
+    },
+    {
+      "name": "sign",
+      "asset": "sign",
+      "numAnimFrames": 1,
+      "singleFrameDuration": 1,
+      "repeating": true
+    },
+    {
+      "name": "box",
+      "asset": "box",
+      "numAnimFrames": 1,
+      "singleFrameDuration": 1,
+      "repeating": true
+    },
+    {
+      "name": "playerIdle",
+      "asset": "playerIdle",
+      "numAnimFrames": 4,
+      "singleFrameDuration": 28,
+      "repeating": true
+    },
+    {
+      "name": "playerJump",
+      "asset": "playerJump",
+      "numAnimFrames": 8,
+      "singleFrameDuration": 10,
+      "repeating": true
+    },
+    {
+      "name": "playerRun",
+      "asset": "playerRun",
+      "numAnimFrames": 6,
+      "singleFrameDuration": 10,
+      "repeating": true
+    }
+  ],
+  "level": [
+    {
+      "animation": "wave",
+      "tag": "decoration",
+      "data": [
+        [4, 0],
+        [5, 0],
+        [6, 0],
+        [7, 0],
+        [8, 0],
+        [9, 0],
+        [10, 0],
+        [11, 0],
+        [12, 0]
+      ]
+    },
+    {
+      "animation": "grassFull",
+      "tag": "solid",
+      "data": [
+        [0, 4],
+        [1, 0],
+        [2, 0],
+        [3, 0],
+        [13, 0],
+        [14, 0],
+        [15, 0]
+      ]
+    },
+    {
+      "animation": "groundFull",
+      "tag": "solid",
+      "data": [[0, 0]]
+    },
+    {
+      "animation": "groundSemiSolid",
+      "tag": "solid",
+      "data": [
+        [0, 1],
+        [0, 2],
+        [0, 3]
+      ]
+    },
+    {
+      "animation": "grassFloat",
+      "tag": "solid",
+      "data": [
+        [6, 2],
+        [11, 2]
+      ]
+    },
+    {
+      "animation": "grassFloatLeft",
+      "tag": "solid",
+      "data": [
+        [5, 2],
+        [10, 2]
+      ]
+    },
+    {
+      "animation": "grassFloatRight",
+      "tag": "solid",
+      "data": [
+        [7, 2],
+        [12, 2]
+      ]
+    },
+    {
+      "animation": "sign",
+      "tag": "decoration",
+      "data": [[11, 3]]
+    },
+    {
+      "animation": "box",
+      "tag": "destructible",
+      "data": [[6, 5]]
+    }
+  ],
+  "player": {
+    "startX": 2,
+    "startY": 4
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "game": {
+    "internalWidth": 512,
+    "internalHeight": 256,
+    "gravity": 0.05,
+    "tileSize": 32,
+    "gameWidth": 16,
+    "gameHeight": 8
+  },
+  "player": {
+    "speed": 0.4,
+    "width": 32,
+    "height": 32,
+    "jumpSpeed": 2.1,
+    "boundingBox": {
+      "width": 32,
+      "height": 32
+    },
+    "maxFallSpeed": 2
+  },
+  "ground": {
+    "width": 32,
+    "height": 32,
+    "boundingBox": {
+      "width": 32,
+      "height": 32
+    }
+  }
+}
