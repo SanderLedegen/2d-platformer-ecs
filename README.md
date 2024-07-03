@@ -9,9 +9,9 @@ course](https://www.youtube.com/watch?v=s99UDGdYIUE&list=PL_xRyXins84_Jf-aCh7chj
 Churchill](https://www.cs.mun.ca/~dchurchill/) of the Memorial University in
 Newfoundland, Canada.
 
-## Demo and screenshot
+![Screenshot of 2D Platformer using ECS](demo/screenshot.png)
 
-URL TBA
+[Check out the demo](https://sanderledegen.github.io/2d-platformer-ecs/)
 
 ## Installation
 
