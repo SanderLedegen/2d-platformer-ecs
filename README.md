@@ -2,6 +2,10 @@
 
 ## Description
 
+**For a more lengthy explanation, you can read the
+[post](https://sanderl.be/posts/2d-platformer-ecs/) I wrote about this on my
+website.**
+
 A 2D platformer written in TypeScript using the ECS (Entity Component System)
 pattern. The concepts used are greatly inspired by the [online
 course](https://www.youtube.com/watch?v=s99UDGdYIUE&list=PL_xRyXins84_Jf-aCh7chj47HR4oZLPwK)
